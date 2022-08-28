@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+    header .container  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+    body > header {
+        color: whitesmoke;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(44, 9, 76);
+        padding: 16px;
+        
+    }
+
+header li {
+    display: inline;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+
+.articles {
+    display: flex;
+   justify-content: space-between
+}
+    
+
+.articles article img {
+    width: 400px;
+    
+}
+
+section {
+  padding: 18px;
+}
+
+section h2 {
+    margin-bottom: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 29px;
+    font-weight: 700;
+    font-style: oblique;
+}
+
+.articles article h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+
+.articles article a {
+    background-color: rgb(176, 138, 211);
+color: whitesmoke;
+padding: 9px;
+border-radius: 8px;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+    background-color: rgb(44, 9, 76);
+}
+
+header li a {
+    color: whitesmoke;
+}
+
+.articles article p 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    width: 400px;
+    word-wrap:break-word
+}
+
+#entretenimento {
+    background-color: rgb(214, 199, 228);
+}
+
+#tecnologia {
+    background-color: rgb(214, 199, 228);
+}
+
+.articles article #biotecno {
+    margin-right: 85px;
+}
+
+#biotecno p {
+margin-bottom: 18px;
+}
+
+#tecnologiacel p {
+margin-bottom: 18px;
+}
+
+#aniversario p {
+    margin-bottom: 18px;
+}
+
+.creation-date {
+    color: rgb(138, 124, 162);
+}
