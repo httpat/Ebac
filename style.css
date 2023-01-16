@@ -1,73 +1,20 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 8px auto;
+    padding: 8px;
     box-sizing: border-box;
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif
+    width: 100%;
+    max-width: 640px;
 }
 
-header {
-    background-color: rgb(206, 128, 44);
-    color: whitesmoke;
-    padding: 16px 0;
-    display: flex;
-    justify-content: center;
-    text-transform: uppercase;
-}
-
-header button {
-    margin-left: 16px;
-    padding: 0 5px;
-    background-color: whitesmoke;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-form {
-    background-color: whitesmoke;
-    padding: 24px 0;
-    text-align: center;
-    color: rgb(111, 62, 9); 
-display: none;}
-    
-
-form button {
-    padding: 5px;
-    border: none;
-    background-color: rgb(206, 128, 44); ;
-    color: whitesmoke;
-    cursor: pointer;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-input {
-    padding: 5px;
-    border: none;
-}
-
-.container {
-    margin-top: 20px;
-    text-align: center;
-    cursor: pointer;
-}
-
-p {
+h1 {
     margin-top: 20px;
     text-align: center;
 }
 
-ol li {
-    padding: 7px;
-    align-items: center;
-    position: relative;
+input,textarea,button{
+    display: block;
 }
 
-ol .checked {
-    text-decoration: line-through;
+.form-campo textarea{
+    resize: none;
 }
-
-
-
